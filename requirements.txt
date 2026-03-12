@@ -1,5 +1,18 @@
-streamlit
-pandas
+# Core Data Science 
 numpy
+pandas
+matplotlib
+seaborn
+
+# Machine Learning 
 scikit-learn
+
+# Hyperparameter Optimization
 optuna
+
+# Experiment Tracking & Model Registry 
+mlflow
+
+# Web UI 
+streamlit>=1.41
+
