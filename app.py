@@ -6,11 +6,11 @@ from preprocess import transform_data
 
 
 # Load preprocessor
-with open("models/preprocessor.pkl", "rb") as f:
+with open("preprocessor.pkl", "rb") as f:
     preprocessor = pickle.load(f)
 
 # Load trained model
-with open("models/logreg_model.pkl", "rb") as f:
+with open("logreg_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 
@@ -81,3 +81,4 @@ if st.button("Predict"):
     else:
 
         st.error("Prediction: Transported = False")
+
