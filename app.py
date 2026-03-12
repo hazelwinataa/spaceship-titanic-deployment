@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import streamlit as st
 
-from src.preprocess import transform_data
+from preprocess import transform_data
 
 
 # Load preprocessor
@@ -79,4 +79,5 @@ if st.button("Predict"):
     if prediction == 1:
         st.success("Prediction: Transported = True")
     else:
+
         st.error("Prediction: Transported = False")
